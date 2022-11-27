@@ -24,5 +24,57 @@
         "underlined": false,
         "color": "#555555",
         "src": "modMenu.png"
+    },
+    {
+        "name": "Normal entry",
+        "type": "Config row with ellipsis",
+        "width": 894,
+        "height": 108,
+        "originX": 318,
+        "originY": 139,
+        "align": "left",
+        "bold": false,
+        "underlined": false,
+        "color": "#555555",
+        "src": "modMenu3dots.png"
+    },
+    {
+        "name": "Sub-entry",
+        "type": "Description row",
+        "width": 894,
+        "height": 108,
+        "originX": 324,
+        "originY": 85,
+        "align": "left",
+        "bold": false,
+        "underlined": false,
+        "color": "#808080",
+        "src": "modMenuSub.png"
+    },
+    {
+        "name": "Sub-entry",
+        "type": "Config row",
+        "width": 894,
+        "height": 108,
+        "originX": 396,
+        "originY": 139,
+        "align": "left",
+        "bold": false,
+        "underlined": false,
+        "color": "#555555",
+        "src": "modMenuSub.png"
+    },
+    {
+        "name": "Sub-entry",
+        "type": "Config row with ellipsis",
+        "width": 894,
+        "height": 108,
+        "originX": 396,
+        "originY": 139,
+        "align": "left",
+        "bold": false,
+        "underlined": false,
+        "color": "#555555",
+        "src": "modMenuSub3dots.png"
     }
 ]
