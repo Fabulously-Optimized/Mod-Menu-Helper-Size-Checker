@@ -1,94 +1,28 @@
 [
     {
-        "name": "Button",
-        "type": "Large",
-        "width": 200,
-        "height": 20,
-        "originX": 200,
-        "originY": 20,
-        "align": "center",
+        "name": "Description",
+        "type": "1st line",
+        "width": 894,
+        "height": 108,
+        "originX": 124,
+        "originY": 60,
+        "align": "left",
         "bold": false,
         "underlined": false,
-        "color": "#FFFFFF",
-        "src": "largeButton.png"
+        "color": "#808080",
+        "src": "modMenu.png"
     },
     {
-        "name": "Button",
-        "type": "Medium",
-        "width": 192,
-        "height": 20,
-        "originX": 192,
-        "originY": 20,
-        "align": "center",
-        "color": "#FFFFFF",
-        "src": "mediumButton.png"
-    },
-    {
-        "name": "Button",
-        "type": "Small",
-        "width": 150,
-        "height": 20,
-        "originX": 150,
-        "originY": 20,
-        "align": "center",
-        "color": "#FFFFFF",
-        "src": "smallButton.png"
-    },
-    {
-        "name": "Slider",
-        "type": "Small",
-        "width": 150,
-        "height": 20,
-        "originX": 150,
-        "originY": 20,
-        "align": "center",
-        "color": "#FFFFFF",
-        "src": "sliderBar.png"
-    },
-    {
-        "name": "Advancement",
-        "type": "Title",
-        "width": 200,
-        "height": 26,
-        "originX": 64,
-        "originY": 26,
+        "name": "Description",
+        "type": "2nd line",
+        "width": 894,
+        "height": 108,
+        "originX": 160,
+        "originY": 86,
         "align": "left",
-        "color": "#FFFFFF",
-        "src": "advancementTitle.png"
-    },
-    {
-        "name": "Effect",
-        "type": "In open inventory",
-        "width": 120,
-        "height": 32,
-        "originX": 56,
-        "originY": 19,
-        "align": "left",
-        "color": "#FFFFFF",
-        "src": "effect.png"
-    },
-    {
-        "name": "Search",
-        "type": "Creative inventory",
-        "width": 195,
-        "height": 76,
-        "originX": 16,
-        "originY": 75,
-        "align": "left",
-        "shadow": false,
-        "color": "#3F3F3F",
-        "src": "searchCreativeInventory.png"
-    },
-    {
-        "name": "Search",
-        "type": "Recipe book",
-        "width": 179,
-        "height": 166,
-        "originX": 114,
-        "originY": 35,
-        "align": "left",
-        "italics": "true, but this is not currently supported.",
-        "color": "#A8A8A8",
-        "src": "searchRecipeBook.png"
+        "bold": false,
+        "underlined": false,
+        "color": "#555555",
+        "src": "modMenu.png"
     }
 ]
