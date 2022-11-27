@@ -120,20 +120,20 @@ async function getCharacterImage(file, row, col, characterSize, renderParams) {
                 if (i > characterEnd) characterEnd = i
                 if (i < characterStart) characterStart = i
                 // render the shadow
-                if (renderParams.shadow && ctx.getImageData(i + 1, j + 1, 1, 1).data[3] == 0) {
+                /*if (renderParams.shadow && ctx.getImageData(i + 1, j + 1, 1, 1).data[3] == 0) {
                     let imageData = ctx.getImageData(i, j, 1, 1)
                     imageData.data[0] = 62
                     imageData.data[1] = 62
                     imageData.data[2] = 62
                     imageData.data[3] = 255
                     ctx.putImageData(imageData, i + 1, j + 1)
-                }
+                }*/
             }
         }
     }
 
     // ctx.drawImage(img, col*characterSize.width, row*characterSize.height, characterSize.width, characterSize.height, 0, 0, characterSize.width, characterSize.height)
-    let characterPara = { width: characterEnd - characterStart, scaleRatio: Math.ceil(16 / characterSize.width), ascent: characterSize.ascent }
+    let characterPara = { width: characterEnd - characterStart, scaleRatio: Math.ceil(48 / characterSize.width), ascent: characterSize.ascent }
 
     // Remove characterStart pixels on the left
     if (Math.abs(characterStart) < 999) {

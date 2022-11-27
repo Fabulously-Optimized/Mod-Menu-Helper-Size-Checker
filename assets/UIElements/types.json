@@ -1,11 +1,11 @@
 [
     {
-        "name": "Description",
-        "type": "1st line",
+        "name": "Normal entry",
+        "type": "Description row",
         "width": 894,
         "height": 108,
-        "originX": 124,
-        "originY": 60,
+        "originX": 246,
+        "originY": 85,
         "align": "left",
         "bold": false,
         "underlined": false,
@@ -13,12 +13,12 @@
         "src": "modMenu.png"
     },
     {
-        "name": "Description",
-        "type": "2nd line",
+        "name": "Normal entry",
+        "type": "Config row",
         "width": 894,
         "height": 108,
-        "originX": 160,
-        "originY": 86,
+        "originX": 318,
+        "originY": 139,
         "align": "left",
         "bold": false,
         "underlined": false,
